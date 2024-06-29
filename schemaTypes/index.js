@@ -1,7 +1,8 @@
-import categories from './categories'
+import category from './category'
 // import contact from './contact'
-import home from './home'
-import products from './products'
+import content from './content'
+import product from './product'
 import themes from './themes'
+import subcategory from './subcategory'
 
-export const schemaTypes = [home, categories, products, themes]
+export const schemaTypes = [content, category, subcategory, product, themes]
